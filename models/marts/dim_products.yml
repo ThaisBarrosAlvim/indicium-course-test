@@ -1,0 +1,43 @@
+models:
+  - name: dim_products
+    description: Northwind POS system product dimensions.
+    columns:
+      - name: PK_PRODUCT
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+              
+      - name: NAME_PRODUCT
+        description: TO BE DETERMINED.
+        
+      - name: QTD_PER_UNIT
+        description: TO BE DETERMINED.
+        
+      - name: PRICE_PER_UNIT
+        description: TO BE DETERMINED.
+        
+      - name: UNITY_IN_STOCK
+        description: TO BE DETERMINED.
+        
+      - name: UNITY_ON_ORDER
+        description: TO BE DETERMINED.
+        
+      - name: REORDER_LEVEL
+        description: TO BE DETERMINED.
+        
+      - name: IS_DISCONTINUED
+        description: TO BE DETERMINED.
+        
+      - name: NAME_CATEGORY
+        description: TO BE DETERMINED.
+        
+      - name: NAME_SUPPLIER
+        description: TO BE DETERMINED.
+        
+      - name: CITY_SUPPLIER
+        description: TO BE DETERMINED.
+        
+      - name: COUNTRY_SUPPLIER
+        description: TO BE DETERMINED.
+        
