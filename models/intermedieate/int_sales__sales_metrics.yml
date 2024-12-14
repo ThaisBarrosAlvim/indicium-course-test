@@ -1,0 +1,9 @@
+models:
+  - name: int_sales__sales_metrics
+    description: TO BE DETERMINED.
+    columns:
+      - name: PK_ORDER_DETAILS
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
